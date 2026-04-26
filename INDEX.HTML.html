@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW - Luxury Performance Vehicles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand fw-bold fs-4" href="#home">
+                <i class="fas fa-car me-2"></i>BMW
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#models">Models</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="text-white py-5 mt-5" style="min-height: 600px; background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero-background.jpeg') center/cover no-repeat;">
+        <div class="container d-flex align-items-center justify-content-center" style="height: 500px;">
+            <div class="text-center">
+                <h1 class="display-3 fw-bold mb-3">Experience Luxury Performance</h1>
+                <p class="lead fs-5 mb-4">Discover the Perfect Blend of Innovation and Style</p>
+                <a href="#models" class="btn btn-warning btn-lg fw-bold">Explore Models</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5" style="font-size: 2.5rem; color: #003DA5;">About BMW</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                    <img src="about.jpeg" alt="BMW Heritage" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <p class="fs-5 lh-lg text-dark">
+                        BMW India has been delivering luxury and performance to Indian customers since 2007. We continue to lead the Indian automotive luxury segment with cutting-edge technology, innovative features, and timeless German engineering that resonates with discerning Indian customers.
+                    </p>
+                    <p class="fs-5 lh-lg text-dark">
+                        Our commitment to sustainability and electric mobility shapes the future of transportation in India. Every BMW vehicle is engineered to deliver an extraordinary driving experience on Indian roads. Experience the perfect blend of premium quality and Indian road expertise.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Features -->
+            <div class="row mt-5">
+                <div class="col-md-4 mb-4">
+                    <div class="text-center p-4 bg-white rounded shadow-sm h-100">
+                        <i class="fas fa-bolt fs-1 mb-3" style="color: #003DA5;"></i>
+                        <h5 class="fw-bold" style="color: #003DA5;">Performance</h5>
+                        <p class="text-muted">High-performance engines designed for power and efficiency.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="text-center p-4 bg-white rounded shadow-sm h-100">
+                        <i class="fas fa-leaf fs-1 mb-3" style="color: #003DA5;"></i>
+                        <h5 class="fw-bold" style="color: #003DA5;">Sustainability</h5>
+                        <p class="text-muted">Advanced electric and hybrid technology for a greener future.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="text-center p-4 bg-white rounded shadow-sm h-100">
+                        <i class="fas fa-cog fs-1 mb-3" style="color: #003DA5;"></i>
+                        <h5 class="fw-bold" style="color: #003DA5;">Innovation</h5>
+                        <p class="text-muted">Latest technology and smart features for your safety and comfort.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Models Section -->
+    <section id="models" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5" style="font-size: 2.5rem; color: #003DA5;">Our Collections</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="bmw 3 series.jpg" alt="3 Series" class="card-img-top" width="400" height="250" style="object-fit: cover;">
+                        <div class="card-body bg-light">
+                            <h5 class="fw-bold" style="color: #003DA5;">BMW 3 Series</h5>
+                            <p class="small text-secondary mb-3">
+                                <strong>0-100 km/h:</strong> 5.8 seconds<br>
+                                <strong>Engine:</strong> 3.0L Twin-Turbo<br>
+                                <strong>Horsepower:</strong> 382 HP
+                            </p>
+                            <a href="#contact" class="btn btn-sm btn-dark w-100">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="bmw x5 suv.jpg" alt="X5" class="card-img-top" width="400" height="250" style="object-fit: cover;">
+                        <div class="card-body bg-light">
+                            <h5 class="fw-bold" style="color: #003DA5;">BMW X5 SUV</h5>
+                            <p class="small text-secondary mb-3">
+                                <strong>0-100 km/h:</strong> 5.3 seconds<br>
+                                <strong>Engine:</strong> 4.4L V8 Twin-Turbo<br>
+                                <strong>Horsepower:</strong> 523 HP
+                            </p>
+                            <a href="#contact" class="btn btn-sm btn-dark w-100">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="bmw i7 electric.webp" alt="i7 Electric" class="card-img-top" width="400" height="250" style="object-fit: cover;">
+                        <div class="card-body bg-light">
+                            <h5 class="fw-bold" style="color: #003DA5;">BMW i7 Electric</h5>
+                            <p class="small text-secondary mb-3">
+                                <strong>0-100 km/h:</strong> 4.6 seconds<br>
+                                <strong>Range:</strong> 600+ km<br>
+                                <strong>Horsepower:</strong> 516 HP
+                            </p>
+                            <a href="#contact" class="btn btn-sm btn-dark w-100">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="BMW M4 xDrive.webp" alt="M440i" class="card-img-top" width="400" height="250" style="object-fit: cover;">
+                        <div class="card-body bg-light">
+                            <h5 class="fw-bold" style="color: #003DA5;">BMW M440i xDrive</h5>
+                            <p class="small text-secondary mb-3">
+                                <strong>0-100 km/h:</strong> 4.3 seconds<br>
+                                <strong>Engine:</strong> 3.0L Twin-Turbo<br>
+                                <strong>Horsepower:</strong> 503 HP
+                            </p>
+                            <a href="#contact" class="btn btn-sm btn-dark w-100">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="BMW Z4 Roadster.jpg" alt="Z4 Roadster" class="card-img-top" width="400" height="250" style="object-fit: cover;">
+                        <div class="card-body bg-light">
+                            <h5 class="fw-bold" style="color: #003DA5;">BMW Z4 Roadster</h5>
+                            <p class="small text-secondary mb-3">
+                                <strong>0-100 km/h:</strong> 3.9 seconds<br>
+                                <strong>Engine:</strong> 3.0L Twin-Turbo<br>
+                                <strong>Horsepower:</strong> 382 HP
+                            </p>
+                            <a href="#contact" class="btn btn-sm btn-dark w-100">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="BMW iX Electric.jpg" alt="iX Electric" class="card-img-top" width="400" height="250" style="object-fit: cover;">
+                        <div class="card-body bg-light">
+                            <h5 class="fw-bold" style="color: #003DA5;">BMW iX Electric</h5>
+                            <p class="small text-secondary mb-3">
+                                <strong>0-100 km/h:</strong> 4.6 seconds<br>
+                                <strong>Range:</strong> 636 km<br>
+                                <strong>Horsepower:</strong> 516 HP
+                            </p>
+                            <a href="#contact" class="btn btn-sm btn-dark w-100">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5" style="font-size: 2.5rem; color: #003DA5;">Get in Touch</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="bg-white p-5 rounded shadow-sm">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-semibold">Full Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-semibold">Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="phone" class="form-label fw-semibold">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Enter your phone" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="model" class="form-label fw-semibold">Interested Model</label>
+                                <select class="form-control" id="model" required>
+                                    <option value="">Select a model</option>
+                                    <option value="3-series">BMW 3 Series</option>
+                                    <option value="x5">BMW X5 SUV</option>
+                                    <option value="i7">BMW i7 Electric</option>
+                                    <option value="m440i">BMW M440i xDrive</option>
+                                    <option value="z4">BMW Z4 Roadster</option>
+                                    <option value="ix">BMW iX Electric</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="message" class="form-label fw-semibold">Message</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Your message..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-warning fw-bold w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="ps-lg-4">
+                        <h4 class="fw-bold mb-4" style="color: #003DA5;">Contact Information</h4>
+                        
+                        <div class="mb-4">
+                            <div class="d-flex gap-3">
+                                <i class="fas fa-map-marker-alt fs-5" style="color: #003DA5; margin-top: 5px;"></i>
+                                <div>
+                                    <h6 class="fw-bold" style="color: #003DA5;">Address</h6>
+                                    <p class="text-muted">BMW Showroom, MG Road<br>Bangalore, Karnataka 560027, India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="d-flex gap-3">
+                                <i class="fas fa-phone fs-5" style="color: #003DA5; margin-top: 5px;"></i>
+                                <div>
+                                    <h6 class="fw-bold" style="color: #003DA5;">Phone</h6>
+                                    <p class="text-muted">+91 80 4000 3000<br>+91 98 1234 5678</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="d-flex gap-3">
+                                <i class="fas fa-envelope fs-5" style="color: #003DA5; margin-top: 5px;"></i>
+                                <div>
+                                    <h6 class="fw-bold" style="color: #003DA5;">Email</h6>
+                                    <p class="text-muted">sales.india@bmw.com<br>support.india@bmw.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-5">
+                            <h6 class="fw-bold mb-3" style="color: #003DA5;">Follow Us</h6>
+                            <div class="d-flex gap-3 fs-5">
+                                <a href="#" class="text-dark text-decoration-none" title="Facebook"><i class="fab fa-facebook"></i></a>
+                                <a href="#" class="text-dark text-decoration-none" title="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="text-dark text-decoration-none" title="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="text-dark text-decoration-none" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="text-dark text-decoration-none" title="YouTube"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-3 mb-4">
+                    <div>
+                        <h5 class="fw-bold mb-3" style="color: #FFD700;">About BMW</h5>
+                        <a href="#" class="d-block text-decoration-none text-white-50 text-white mb-2">Company Profile</a>
+                        <a href="#" class="d-block text-decoration-none text-white-50 text-white mb-2">History & Heritage</a>
+                        <a href="#" class="d-block text-decoration-none text-white-50 text-white mb-2">Sustainability</a>
+                        <a href="#" class="d-block text-decoration-none text-white-50 text-white mb-2">Innovation</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div>
+                        <h5 class="fw-bold mb-3" style="color: #FFD700;">Our Models</h5>
+                        <a href="#" class="d-block text-decoration-none text-white-50 text-white mb-2">3 Series</a>
+                        <a href="#" class="d-block text-decoration-none text-white-50 text-white mb-2">X5 SUV</a>
+                        <a href="#" class="d-block text-decoration-none text-white-50 text-white mb-2">i7 Electric</a>
+                        <a href="#" class="d-block text-decoration-none text-white-50 text-white mb-2">M Performance</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div>
+                        <h5 class="fw-bold mb-3" style="color: #FFD700;">Support</h5>
+                        <a href="#" class="d-block text-decoration-none text-white-50 text-white mb-2">Customer Service</a>
+                        <a href="#" class="d-block text-decoration-none text-white-50 text-white mb-2">Warranty</a>
+                        <a href="#" class="d-block text-decoration-none text-white-50 text-white mb-2">Maintenance</a>
+                        <a href="#" class="d-block text-decoration-none text-white-50 text-white mb-2">FAQ</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div>
+                        <h5 class="fw-bold mb-3" style="color: #FFD700;">Legal</h5>
+                        <a href="#" class="d-block text-decoration-none text-white-50 text-white mb-2">Privacy Policy</a>
+                        <a href="#" class="d-block text-decoration-none text-white-50 text-white mb-2">Terms & Conditions</a>
+                        <a href="#" class="d-block text-decoration-none text-white-50 text-white mb-2">Cookie Policy</a>
+                        <a href="#" class="d-block text-decoration-none text-white-50 text-white mb-2">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-top pt-3 text-center text-white-50">
+                <p>&copy; 2026 BMW India - Luxury Performance. All rights reserved. | Designed for Excellence</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
